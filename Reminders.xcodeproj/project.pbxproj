@@ -12,6 +12,8 @@
 		167EA6FE27D889A300C90E5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167EA6FD27D889A300C90E5D /* Preview Assets.xcassets */; };
 		167EA70727D88A0400C90E5D /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EA70627D88A0400C90E5D /* HomeScreen.swift */; };
 		167EA70A27D88D6900C90E5D /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EA70927D88D6900C90E5D /* SidebarView.swift */; };
+		167EA70D27D9E40C00C90E5D /* RemindersModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 167EA70B27D9E40C00C90E5D /* RemindersModel.xcdatamodeld */; };
+		167EA71027DA39E700C90E5D /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EA70F27DA39E700C90E5D /* MyList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		167EA6FF27D889A300C90E5D /* Reminders.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Reminders.entitlements; sourceTree = "<group>"; };
 		167EA70627D88A0400C90E5D /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		167EA70927D88D6900C90E5D /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		167EA70C27D9E40C00C90E5D /* RemindersModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RemindersModel.xcdatamodel; sourceTree = "<group>"; };
+		167EA70F27DA39E700C90E5D /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		167EA6EA27D889A000C90E5D = {
 			isa = PBXGroup;
 			children = (
+				167EA70E27DA399600C90E5D /* Model */,
 				167EA6F527D889A000C90E5D /* Reminders */,
 				167EA6F427D889A000C90E5D /* Products */,
 			);
@@ -60,6 +65,7 @@
 				167EA6FA27D889A300C90E5D /* Assets.xcassets */,
 				167EA6FF27D889A300C90E5D /* Reminders.entitlements */,
 				167EA6FC27D889A300C90E5D /* Preview Content */,
+				167EA70B27D9E40C00C90E5D /* RemindersModel.xcdatamodeld */,
 			);
 			path = Reminders;
 			sourceTree = "<group>";
@@ -86,6 +92,14 @@
 				167EA70927D88D6900C90E5D /* SidebarView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		167EA70E27DA399600C90E5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				167EA70F27DA39E700C90E5D /* MyList.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,8 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				167EA6F727D889A000C90E5D /* RemindersApp.swift in Sources */,
+				167EA70D27D9E40C00C90E5D /* RemindersModel.xcdatamodeld in Sources */,
 				167EA70727D88A0400C90E5D /* HomeScreen.swift in Sources */,
 				167EA70A27D88D6900C90E5D /* SidebarView.swift in Sources */,
+				167EA71027DA39E700C90E5D /* MyList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +374,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		167EA70B27D9E40C00C90E5D /* RemindersModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				167EA70C27D9E40C00C90E5D /* RemindersModel.xcdatamodel */,
+			);
+			currentVersion = 167EA70C27D9E40C00C90E5D /* RemindersModel.xcdatamodel */;
+			path = RemindersModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 167EA6EB27D889A000C90E5D /* Project object */;
 }
