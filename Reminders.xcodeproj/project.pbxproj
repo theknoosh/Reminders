@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1634A24C27E02BED0042DC40 /* AddNewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1634A24B27E02BED0042DC40 /* AddNewListView.swift */; };
+		1634A24E27E030620042DC40 /* ColorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1634A24D27E030620042DC40 /* ColorListView.swift */; };
+		1634A25127E061B80042DC40 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1634A25027E061B80042DC40 /* Constants.swift */; };
 		167EA6F727D889A000C90E5D /* RemindersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EA6F627D889A000C90E5D /* RemindersApp.swift */; };
 		167EA6FB27D889A300C90E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167EA6FA27D889A300C90E5D /* Assets.xcassets */; };
 		167EA6FE27D889A300C90E5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167EA6FD27D889A300C90E5D /* Preview Assets.xcassets */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1634A24B27E02BED0042DC40 /* AddNewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListView.swift; sourceTree = "<group>"; };
+		1634A24D27E030620042DC40 /* ColorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorListView.swift; sourceTree = "<group>"; };
+		1634A25027E061B80042DC40 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		167EA6F327D889A000C90E5D /* Reminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		167EA6F627D889A000C90E5D /* RemindersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersApp.swift; sourceTree = "<group>"; };
 		167EA6FA27D889A300C90E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,10 +51,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1634A24F27E061980042DC40 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1634A25027E061B80042DC40 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		167EA6EA27D889A000C90E5D = {
 			isa = PBXGroup;
 			children = (
-				167EA70E27DA399600C90E5D /* Model */,
 				167EA6F527D889A000C90E5D /* Reminders */,
 				167EA6F427D889A000C90E5D /* Products */,
 			);
@@ -65,6 +78,8 @@
 		167EA6F527D889A000C90E5D /* Reminders */ = {
 			isa = PBXGroup;
 			children = (
+				1634A24F27E061980042DC40 /* Utils */,
+				167EA70E27DA399600C90E5D /* Model */,
 				16E8F75927DD6B890095CE80 /* View Models */,
 				16E8F75627DD67780095CE80 /* Managers */,
 				167EA70827D88D4600C90E5D /* Views */,
@@ -98,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				167EA70927D88D6900C90E5D /* SidebarView.swift */,
+				1634A24B27E02BED0042DC40 /* AddNewListView.swift */,
+				1634A24D27E030620042DC40 /* ColorListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -198,8 +215,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				16E8F75827DD67BE0095CE80 /* CoreDataManager.swift in Sources */,
+				1634A25127E061B80042DC40 /* Constants.swift in Sources */,
 				16E8F75B27DD83E40095CE80 /* AddNewListViewModel.swift in Sources */,
 				167EA6F727D889A000C90E5D /* RemindersApp.swift in Sources */,
+				1634A24C27E02BED0042DC40 /* AddNewListView.swift in Sources */,
+				1634A24E27E030620042DC40 /* ColorListView.swift in Sources */,
 				167EA70D27D9E40C00C90E5D /* RemindersModel.xcdatamodeld in Sources */,
 				167EA70727D88A0400C90E5D /* HomeScreen.swift in Sources */,
 				167EA70A27D88D6900C90E5D /* SidebarView.swift in Sources */,
