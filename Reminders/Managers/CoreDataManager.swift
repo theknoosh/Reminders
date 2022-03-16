@@ -13,6 +13,9 @@ class CoreDataManager {
     static let shared = CoreDataManager()
     
     private init() { // private prevents another file from creating instance of this class
+        
+        ValueTransformer.setValueTransformer(NSColorTransformer(), forName: NSValueTransformerName("NSColorTransformer"))
+        
         persistantContainter = NSPersistentContainer(name: "RemindersModel")
         
         persistantContainter.loadPersistentStores { description, error in
