@@ -15,9 +15,9 @@ struct SidebarView: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text("All Items Count: 10")
-            List(1...5, id: \.self) { index in
-                Text("list \(index)")
-            }
+            
+            MyListsView(vm: MyListsViewModel(context: context))
+            
             Spacer()
             Button {
                 // Action
