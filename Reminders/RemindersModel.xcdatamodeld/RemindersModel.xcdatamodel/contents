@@ -3,8 +3,16 @@
     <entity name="MyList" representedClassName="MyList" syncable="YES">
         <attribute name="color" attributeType="Transformable" valueTransformerName="NSColorTransformer" customClassName="NSColor"/>
         <attribute name="name" attributeType="String"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="MyListItem" inverseName="myList" inverseEntity="MyListItem"/>
+    </entity>
+    <entity name="MyListItem" representedClassName="MyListItem" syncable="YES" codeGenerationType="class">
+        <attribute name="dueDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="isCompleted" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="title" attributeType="String"/>
+        <relationship name="myList" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MyList" inverseName="items" inverseEntity="MyList"/>
     </entity>
     <elements>
-        <element name="MyList" positionX="-63" positionY="-18" width="128" height="59"/>
+        <element name="MyList" positionX="-63" positionY="-18" width="128" height="14"/>
+        <element name="MyListItem" positionX="-63" positionY="0" width="128" height="14"/>
     </elements>
 </model>

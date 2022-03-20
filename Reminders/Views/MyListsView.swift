@@ -35,7 +35,7 @@ struct MyListsView: View {
                             Label {
                                 Text("Delete")
                             } icon: {
-                                Image(systemName: "square.and.arrow.up")
+                                Image(systemName: "trash")
                             }
 
                         }
