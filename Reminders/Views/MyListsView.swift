@@ -22,11 +22,16 @@ struct MyListsView: View {
                 Text("My List")
                     .font(.title2)
                 ForEach(vm.myLists) {myList in
-                    HStack {
-                        Image(systemName: Constants.Icons.line3HorizontalCircleFill)
-                            .font(.title)
-                            .foregroundColor(myList.color)
-                        Text(myList.name)
+                    NavigationLink {
+                        MyListItemsHeaderView(name: myList.name, count: 6, color: myList.color)
+                        MyListItemsView()
+                    } label: {
+                        HStack {
+                            Image(systemName: Constants.Icons.line3HorizontalCircleFill)
+                                .font(.title)
+                                .foregroundColor(myList.color)
+                            Text(myList.name)
+                        }
                     }.contextMenu {
                         Button {
                             // Action
@@ -37,7 +42,7 @@ struct MyListsView: View {
                             } icon: {
                                 Image(systemName: "trash")
                             }
-
+                            
                         }
                     }
                 }

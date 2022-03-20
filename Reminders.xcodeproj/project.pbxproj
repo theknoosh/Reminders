@@ -10,6 +10,8 @@
 		1634A24C27E02BED0042DC40 /* AddNewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1634A24B27E02BED0042DC40 /* AddNewListView.swift */; };
 		1634A24E27E030620042DC40 /* ColorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1634A24D27E030620042DC40 /* ColorListView.swift */; };
 		1634A25127E061B80042DC40 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1634A25027E061B80042DC40 /* Constants.swift */; };
+		164EB89D27E700C200DDAF8C /* MyListItemsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EB89C27E700C200DDAF8C /* MyListItemsHeaderView.swift */; };
+		164EB89F27E7AFB500DDAF8C /* MyListItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EB89E27E7AFB500DDAF8C /* MyListItemsView.swift */; };
 		16706FB527E21A850033CCFE /* NSColorTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16706FB427E21A850033CCFE /* NSColorTransformer.swift */; };
 		167C382F27E3169B0046532E /* MyListsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167C382E27E3169B0046532E /* MyListsViewModel.swift */; };
 		167C383127E388E70046532E /* MyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167C383027E388E70046532E /* MyListViewModel.swift */; };
@@ -30,6 +32,8 @@
 		1634A24B27E02BED0042DC40 /* AddNewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListView.swift; sourceTree = "<group>"; };
 		1634A24D27E030620042DC40 /* ColorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorListView.swift; sourceTree = "<group>"; };
 		1634A25027E061B80042DC40 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		164EB89C27E700C200DDAF8C /* MyListItemsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListItemsHeaderView.swift; sourceTree = "<group>"; };
+		164EB89E27E7AFB500DDAF8C /* MyListItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListItemsView.swift; sourceTree = "<group>"; };
 		16706FB427E21A850033CCFE /* NSColorTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSColorTransformer.swift; sourceTree = "<group>"; };
 		167C382E27E3169B0046532E /* MyListsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListsViewModel.swift; sourceTree = "<group>"; };
 		167C383027E388E70046532E /* MyListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListViewModel.swift; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 				1634A24B27E02BED0042DC40 /* AddNewListView.swift */,
 				1634A24D27E030620042DC40 /* ColorListView.swift */,
 				167C383227E3EB4F0046532E /* MyListsView.swift */,
+				164EB89C27E700C200DDAF8C /* MyListItemsHeaderView.swift */,
+				164EB89E27E7AFB500DDAF8C /* MyListItemsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				164EB89F27E7AFB500DDAF8C /* MyListItemsView.swift in Sources */,
 				167C382F27E3169B0046532E /* MyListsViewModel.swift in Sources */,
 				16E8F75827DD67BE0095CE80 /* CoreDataManager.swift in Sources */,
 				167C383127E388E70046532E /* MyListViewModel.swift in Sources */,
@@ -248,6 +255,7 @@
 				167C383327E3EB4F0046532E /* MyListsView.swift in Sources */,
 				16E8F75D27DDD1590095CE80 /* BaseModel.swift in Sources */,
 				16706FB527E21A850033CCFE /* NSColorTransformer.swift in Sources */,
+				164EB89D27E700C200DDAF8C /* MyListItemsHeaderView.swift in Sources */,
 				167EA71027DA39E700C90E5D /* MyList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
