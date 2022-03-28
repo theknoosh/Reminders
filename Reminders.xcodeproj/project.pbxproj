@@ -10,6 +10,7 @@
 		161B72BA27EEF14700FFEA3C /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B72B927EEF14700FFEA3C /* Date+Extensions.swift */; };
 		161B72C027F0A6CD00FFEA3C /* AddNewListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B72BF27F0A6CD00FFEA3C /* AddNewListItemView.swift */; };
 		161B72C227F0BA2A00FFEA3C /* DueDateSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B72C127F0BA2A00FFEA3C /* DueDateSelectionView.swift */; };
+		161B72C427F1F4A700FFEA3C /* MyListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B72C327F1F4A700FFEA3C /* MyListItem.swift */; };
 		1634A24C27E02BED0042DC40 /* AddNewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1634A24B27E02BED0042DC40 /* AddNewListView.swift */; };
 		1634A24E27E030620042DC40 /* ColorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1634A24D27E030620042DC40 /* ColorListView.swift */; };
 		1634A25127E061B80042DC40 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1634A25027E061B80042DC40 /* Constants.swift */; };
@@ -37,6 +38,7 @@
 		161B72B927EEF14700FFEA3C /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		161B72BF27F0A6CD00FFEA3C /* AddNewListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListItemView.swift; sourceTree = "<group>"; };
 		161B72C127F0BA2A00FFEA3C /* DueDateSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DueDateSelectionView.swift; sourceTree = "<group>"; };
+		161B72C327F1F4A700FFEA3C /* MyListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListItem.swift; sourceTree = "<group>"; };
 		1634A24B27E02BED0042DC40 /* AddNewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListView.swift; sourceTree = "<group>"; };
 		1634A24D27E030620042DC40 /* ColorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorListView.swift; sourceTree = "<group>"; };
 		1634A25027E061B80042DC40 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 			children = (
 				167EA70F27DA39E700C90E5D /* MyList.swift */,
 				16E8F75C27DDD1590095CE80 /* BaseModel.swift */,
+				161B72C327F1F4A700FFEA3C /* MyListItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				167EA70727D88A0400C90E5D /* HomeScreen.swift in Sources */,
 				167EA70A27D88D6900C90E5D /* SidebarView.swift in Sources */,
 				161B72C027F0A6CD00FFEA3C /* AddNewListItemView.swift in Sources */,
+				161B72C427F1F4A700FFEA3C /* MyListItem.swift in Sources */,
 				167C383327E3EB4F0046532E /* MyListsView.swift in Sources */,
 				161B72BA27EEF14700FFEA3C /* Date+Extensions.swift in Sources */,
 				16B44D9327EBB24900B09F8A /* DueDate.swift in Sources */,

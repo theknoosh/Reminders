@@ -24,7 +24,9 @@ struct MyListsView: View {
                 ForEach(vm.myLists) {myList in
                     NavigationLink {
                         MyListItemsHeaderView(name: myList.name, count: 6, color: myList.color)
-                        MyListItemsView()
+                        MyListItemsView(onItemAdded: { title, dueDate in
+                            vm.saveTo(list: myList, title: title, dueDate: dueDate)
+                        })
                     } label: {
                         HStack {
                             Image(systemName: Constants.Icons.line3HorizontalCircleFill)
