@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		161B72BA27EEF14700FFEA3C /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B72B927EEF14700FFEA3C /* Date+Extensions.swift */; };
+		161B72C027F0A6CD00FFEA3C /* AddNewListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B72BF27F0A6CD00FFEA3C /* AddNewListItemView.swift */; };
+		161B72C227F0BA2A00FFEA3C /* DueDateSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B72C127F0BA2A00FFEA3C /* DueDateSelectionView.swift */; };
 		1634A24C27E02BED0042DC40 /* AddNewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1634A24B27E02BED0042DC40 /* AddNewListView.swift */; };
 		1634A24E27E030620042DC40 /* ColorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1634A24D27E030620042DC40 /* ColorListView.swift */; };
 		1634A25127E061B80042DC40 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1634A25027E061B80042DC40 /* Constants.swift */; };
@@ -33,6 +35,8 @@
 
 /* Begin PBXFileReference section */
 		161B72B927EEF14700FFEA3C /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		161B72BF27F0A6CD00FFEA3C /* AddNewListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListItemView.swift; sourceTree = "<group>"; };
+		161B72C127F0BA2A00FFEA3C /* DueDateSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DueDateSelectionView.swift; sourceTree = "<group>"; };
 		1634A24B27E02BED0042DC40 /* AddNewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListView.swift; sourceTree = "<group>"; };
 		1634A24D27E030620042DC40 /* ColorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorListView.swift; sourceTree = "<group>"; };
 		1634A25027E061B80042DC40 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -146,6 +150,8 @@
 				167C383227E3EB4F0046532E /* MyListsView.swift */,
 				164EB89C27E700C200DDAF8C /* MyListItemsHeaderView.swift */,
 				164EB89E27E7AFB500DDAF8C /* MyListItemsView.swift */,
+				161B72BF27F0A6CD00FFEA3C /* AddNewListItemView.swift */,
+				161B72C127F0BA2A00FFEA3C /* DueDateSelectionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -265,10 +271,12 @@
 				16E8F75B27DD83E40095CE80 /* AddNewListViewModel.swift in Sources */,
 				167EA6F727D889A000C90E5D /* RemindersApp.swift in Sources */,
 				1634A24C27E02BED0042DC40 /* AddNewListView.swift in Sources */,
+				161B72C227F0BA2A00FFEA3C /* DueDateSelectionView.swift in Sources */,
 				1634A24E27E030620042DC40 /* ColorListView.swift in Sources */,
 				167EA70D27D9E40C00C90E5D /* RemindersModel.xcdatamodeld in Sources */,
 				167EA70727D88A0400C90E5D /* HomeScreen.swift in Sources */,
 				167EA70A27D88D6900C90E5D /* SidebarView.swift in Sources */,
+				161B72C027F0A6CD00FFEA3C /* AddNewListItemView.swift in Sources */,
 				167C383327E3EB4F0046532E /* MyListsView.swift in Sources */,
 				161B72BA27EEF14700FFEA3C /* Date+Extensions.swift in Sources */,
 				16B44D9327EBB24900B09F8A /* DueDate.swift in Sources */,
