@@ -24,7 +24,7 @@ struct MyListItemsView: View {
             List {
                 
                 ForEach(items, id: \.listItemId) { item in
-                    Text(item.title)
+                    ListItemCell(item: item)
                     Divider()
                 }
                 
