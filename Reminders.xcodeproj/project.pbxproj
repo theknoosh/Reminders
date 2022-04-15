@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1612FCA92807876D00CB696F /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1612FCA82807876C00CB696F /* Delay.swift */; };
 		1618AE2E27F5867000CA363C /* EditListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1618AE2D27F5867000CA363C /* EditListItemView.swift */; };
 		1618AE3027F6C88F00CA363C /* EditListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1618AE2F27F6C88F00CA363C /* EditListItemViewModel.swift */; };
 		161B72BA27EEF14700FFEA3C /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161B72B927EEF14700FFEA3C /* Date+Extensions.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1612FCA82807876C00CB696F /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
 		1618AE2D27F5867000CA363C /* EditListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditListItemView.swift; sourceTree = "<group>"; };
 		1618AE2F27F6C88F00CA363C /* EditListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditListItemViewModel.swift; sourceTree = "<group>"; };
 		161B72B927EEF14700FFEA3C /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				1634A25027E061B80042DC40 /* Constants.swift */,
+				1612FCA82807876C00CB696F /* Delay.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				16E8F75D27DDD1590095CE80 /* BaseModel.swift in Sources */,
 				16706FB527E21A850033CCFE /* NSColorTransformer.swift in Sources */,
 				164EB89D27E700C200DDAF8C /* MyListItemsHeaderView.swift in Sources */,
+				1612FCA92807876D00CB696F /* Delay.swift in Sources */,
 				167EA71027DA39E700C90E5D /* MyList.swift in Sources */,
 				16B44D9127EAFA8A00B09F8A /* MyListItemViewModel.swift in Sources */,
 			);
